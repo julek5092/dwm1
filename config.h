@@ -17,12 +17,13 @@ static const char col_gray4[]       = "#eeeeee";
 static const char col_cyan[]        = "#005577";
 static const char *colors[][3]      = {
 /*               fg           bg           border   */
-        [SchemeNorm] = { col_gray3,    col_custom2, col_gray2 },   
+        [SchemeNorm] = { col_gray3,    col_custom2, col_gray2 },
         [SchemeSel]  = { col_custom2,  col_custom,  col_gray3 }, // Changed last value to col_custom2
 };
 
 /* tagging */
-static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
+/*   static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };   */
+static const char *tags[] = { "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
 
 static const Rule rules[] = {
         /* class      instance    title       tags mask     isfloating   monitor */
