@@ -21,7 +21,8 @@ static const char col_cyan[]        = "#005577";
 static const char *colors[][3]      = {
 /*               fg           bg           border   */
         [SchemeNorm] = { col_gray3,    col_custom2, col_gray2 },
-        [SchemeSel]  = { col_custom2,  col_custom,  col_gray3 }, // Changed last value to col_custom2
+        [SchemeSel]  = { col_custom2,  col_gray3,   col_gray3 },
+
 };
 
 /* tagging */
