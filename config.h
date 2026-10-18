@@ -24,9 +24,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-/*   static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };   */
 static const char *tags[] = { "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
-
 static const Rule rules[] = {
         /* class      instance    title       tags mask     isfloating   monitor */
         { NULL,       NULL,       NULL,       0,            0,           -1 },
