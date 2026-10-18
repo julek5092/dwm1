@@ -7,15 +7,13 @@ static const unsigned int gappx     = 0;       /* default gap size in pixels */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 
-/* static const char *fonts[]          = { "monospace:size=10" }; */
-
-static const char *fonts[]          = { "BigBlueTerm437 Nerd Font Mono:size=10" };
+static const char *fonts[]          = { "monospace:size=10" };
 static const char dmenufont[]       = "monospace:size=10";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
 static const char col_custom[]      = "#e0e3eb";
-static const char col_custom2[]     = "#000000";
+static const char col_custom2[]     = "#1f1f1f";
 static const char col_gray4[]       = "#eeeeee";
 static const char col_cyan[]        = "#005577";
 static const char *colors[][3]      = {
